@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* background-color: ; */
+}
+
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+#logo-svg {
+    align-self: flex-start;
+    width: 6%;
+}
+
+#list-parent {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    list-style-type:none;
+    padding: 0 2% 0 0;
+    margin: 0;
+}
+
+#list-parent > a {
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+li {
+    margin: 5px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.skill-names {
+    text-align: center;
+}
+
+#skill-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#skills-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+span {
+    font-size: 25px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 42px;
+}
+

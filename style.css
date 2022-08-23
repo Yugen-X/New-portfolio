@@ -37,15 +37,13 @@ li {
 
 .grid {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
-}
-
-.icon-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    width: auto;
+    background-image:url(./images/Background-image-portfolio.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    height: auto;
 }
 
 .skill-names {
@@ -56,6 +54,10 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+#skill-section  > a {
+    text-decoration: none;
+
 }
 
 #skills-name {
@@ -72,8 +74,6 @@ li {
 
 .project-one {
     width: 50%;
-    height: fit-content;
-    background-color: aqua;
     border: 2px solid black;
 }
 .project-one > p, .project-two > p {
@@ -85,16 +85,17 @@ li {
     padding: 10px;
     margin: 0;
 }
-.project-one > a, .project-two > a {
+
+.project-one > button, .project-two > button {
+    padding: 0 10px;
+    margin-left: 10px;
     border: 2px solid black;
     border-radius: 20px;
-    padding: 5px;
-    margin-left: 5px;
-} 
+    line-height: 2.5;
+}
 
 .project-two { 
     width: 50%;
-    background-color: aqua;
     border: 2px solid black;
 }
 

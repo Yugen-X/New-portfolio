@@ -37,7 +37,7 @@ li {
 
 .grid {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -65,14 +65,20 @@ li {
 }
 
 span {
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 
 h1{
-    font-size: 50px;
+    /* font-size: 50px; */
 }
 
 h2 {
-    font-size: 42px;
+    /* font-size: 42px; */
 }
 
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}

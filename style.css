@@ -64,6 +64,40 @@ li {
     justify-content: center;
 }
 
+#project-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.project-one {
+    width: 50%;
+    height: fit-content;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.project-one > p, .project-two > p {
+    padding: 10px;
+    margin: 0;
+}
+
+.project-one > h2,.project-two > h2 {
+    padding: 10px;
+    margin: 0;
+}
+.project-one > a, .project-two > a {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 5px;
+} 
+
+.project-two { 
+    width: 50%;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
 span {
     /* font-size: 25px; */
 }
@@ -74,11 +108,4 @@ h1{
 
 h2 {
     /* font-size: 42px; */
-}
-
-.card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-}
+} 

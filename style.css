@@ -92,9 +92,11 @@ li {
     width: 50%;
     border: 2px solid black;
 }
+
 .project-one > p, .project-two > p {
     padding: 10px;
     margin: 0;
+    font-size: 1.3em;
 }
 
 .project-one > h2,.project-two > h2 {
@@ -114,4 +116,16 @@ li {
 .project-two { 
     width: 50%;
     border: 2px solid black;
+}
+
+#about-me-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#about-me-container > div {
+    font-size: 1.3em;
 }
